@@ -60,20 +60,20 @@ const CRITICAL_RESOURCES = [
   '../dist/demo.css',
 
   // These files are required for the demo to include MDL.
-  '../node_modules/material-design-lite/dist/material.min.js',
+  '../demo/material.min.js',
 
   // MDL modal dialogs are enabled by including these:
-  '../node_modules/dialog-polyfill/dist/dialog-polyfill.js',
+  '../demo/dialog-polyfill.js',
 
   // Datalist-like fields are enabled by including these:
-  '../node_modules/awesomplete/awesomplete.min.js',
+  '../demo/awesomplete.min.js',
 
   // Tooltips are enabled by including these:
-  '../node_modules/tippy.js/umd/index.min.js',
-  '../node_modules/popper.js/dist/umd/popper.min.js',
+  '../demo/index.min.js',
+  '../demo/popper.min.js',
 
   // PWA compatibility for iOS:
-  '../node_modules/pwacompat/pwacompat.min.js',
+  '../demo/pwacompat.min.js',
 ].map(resolveRelativeUrl);
 
 
