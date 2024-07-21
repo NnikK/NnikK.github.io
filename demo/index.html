@@ -37,21 +37,21 @@
 
     <script defer src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js"></script>
     <!-- transmuxing support is enabled by including this: -->
-    <script defer src="../node_modules/mux.js/dist/mux.min.js"></script>
+    <script defer src="../demo/mux.min.js"></script>
     <!-- MDL is enabled by including this: -->
-    <script defer src="../node_modules/material-design-lite/dist/material.min.js"></script>
+    <script defer src="../demo/material.min.js"></script>
     <!-- MDL modal dialogs are enabled by including these: -->
-    <script defer src="../node_modules/dialog-polyfill/dist/dialog-polyfill.js"></script>
+    <script defer src="../demo/dialog-polyfill.js"></script>
     <!-- Datalist-like fields are enabled by including these: -->
-    <script defer src="../node_modules/awesomplete/awesomplete.min.js"></script>
+    <script defer src="../demo/awesomplete.min.js"></script>
     <!-- tippy.js requires popper.js to work properly: -->
-    <script defer src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script defer src="../demo/popper.min.js"></script>
     <!-- Tooltips are made using tippy.js: -->
-    <script defer src="../node_modules/tippy.js/umd/index.min.js"></script>
+    <script defer src="../demo/index.min.js"></script>
     <!-- Improved PWA capability on mobile Safari is enabled by loading pwacompat: -->
-    <script defer src="../node_modules/pwacompat/pwacompat.min.js"></script>
+    <script defer src="../demo/pwacompat.min.js"></script>
     <!-- TextDecoder polyfill, required for legacy Edge. -->
-    <script defer src="../node_modules/fastestsmallesttextencoderdecoder/EncoderDecoderTogether.min.js"></script>
+    <script defer src="../demo/EncoderDecoderTogether.min.js"></script>
 
     <!-- Include IMA SDK to enable client-side ad insertion: -->
     <script type="text/javascript" src="https://imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
@@ -74,16 +74,16 @@ COMPILED_DEBUG_JS = [
 ];
 UNCOMPILED_JS = [
   // Bootstrap the Shaka Player library through the Closure library.
-  '../node_modules/google-closure-library/closure/goog/base.js',
+  '../demo/base.js',
   '../dist/deps.js',
   // This is required for goog.asserts.
   '../lib/debug/asserts.js',
   // Compiled into Shaka Player, but outside of the Closure deps system.
-  '../node_modules/eme-encryption-scheme-polyfill/index.js',
+  '../demo/index.js',
   // This file contains goog.require calls for all exported library classes.
   '../shaka-player.uncompiled.js',
   // Enable less, the CSS pre-processor.
-  '../node_modules/less/dist/less.js',
+  '../demo/less.js',
   // These are the individual parts of the demo app.
   'common/message_ids.js',
   'common/asset.js',
