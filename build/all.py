@@ -145,7 +145,7 @@ def main(args):
       return 1
   import shutil
   #shutil.copyfile("../node_modules/codem-isoboxer/dist/iso_boxer.min.js", "../demo/iso_boxer.min.js")
-  shutil.copyfile("../node_modules/lcevc_dec.js/dist/lcevc_dec.min.js", "../demo/lcevc_dec.min.js")
+  #shutil.copyfile("../node_modules/lcevc_dec.js/dist/lcevc_dec.min.js", "../demo/lcevc_dec.min.js")
   shutil.copyfile("../node_modules/material-design-lite/dist/material.min.js", "../demo/material.min.js")
   shutil.copyfile("../node_modules/dialog-polyfill/dist/dialog-polyfill.js", "../demo/dialog-polyfill.js")
   shutil.copyfile("../node_modules/awesomplete/awesomplete.min.js", "../demo/awesomplete.min.js")
